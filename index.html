@@ -4,54 +4,137 @@
 <head>
     <meta charset="UTF-8">
     <title>My Web Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="images/image.png">
 </head>
 
 <body>
 
     <!-- Task 2: Headings, Paragraphs, HR, BR -->
-    <h1>Welcome to My Web Page</h1>
-    <h2>This is an H2 Heading</h2>
-    <h3>This is an H3 Heading</h3>
-    <h4>This is an H4 Heading</h4>
-    <h5>This is an H5 Heading</h5>
-    <h6>This is an H6 Heading</h6>
+    <h1>Welcome to first my website</h1>
+    <h2>Introduction to computer</h2>
+    <h3>Linear Data structure</h3>
+    <h4>Datatype</h4>
+    <h5>Financial account</h5>
+    <h6>Bussiness account</h6>
 
-    <p>This paragraph gives you a brief intro about the page.</p>
+    <p>My first website using html</p>
     <hr>
-    <p>This is a second paragraph.<br>
-        And this line starts after a line break.</p>
+    <p>Know how to design using website<br>
+        html and css</p>
 
     <!-- Task 3: Lists -->
     <h2>My Top 5 Favorite Books</h2>
     <ol>
-        <li>The Alchemist</li>
-        <li>Atomic Habits</li>
-        <li>Sapiens</li>
-        <li>1984</li>
-        <li>Clean Code</li>
+        <li>Passed liked shadow</li>
+        <li>Three suitor one husband</li>
+        <li>literature</li>
+        <li>Basic mathematics</li>
+        <li>Software Engineering</li>
     </ol>
 
     <h2>My Top 5 Hobbies</h2>
     <ul>
         <li>Reading</li>
-        <li>Photography</li>
-        <li>Traveling</li>
-        <li>Playing Guitar</li>
-        <li>Learning New Skills</li>
+        <li>SWimming</li>
+        <li>Gamming</li>
+        <li>Riding car</li>
+        <li>Learning story Books</li>
     </ul>
 
     <!-- Task 4: Images with alt text -->
     <h2>My Favorite Images</h2>
-    <img src="https://via.placeholder.com/200" alt="Placeholder image of a nature scene" width="200">
-    <img src="https://via.placeholder.com/150" alt="Another placeholder image" width="150">
+    <img src="images/4.jpeg" alt=" garden view" width="200" height="200">
+    <img src="images/5.jpeg" alt="food" width="200" height="200">
 
     <!-- Task 5: Links -->
     <h2>Useful Links</h2>
     <p>
-        Visit <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a><br>
-        Watch videos on <a href="https://www.youtube.com" target="_blank">YouTube</a><br>
-        Learn code at <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+        Visit on <a href="https://www.suza.ac.tz" target="_blank">Suza</a><br>
+        look on <a href="https://classroom.github.com/a/TYTiLgFX" target="_blank">github</a><br>
+        Learn code at <a href="https://www.w3schools.com"target="_blank">W3Schools</a>
     </p>
+    <br><br>
+
+
+    <table>
+        <tr><td>Monday</td>
+            <td>Web Technology</td>
+            <td>IT Innovation</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>OPerating System</td>
+            <td>Database</td>
+        </tr>
+        <tr>
+            <td>Wesdnesday</td>
+            <td>Desktop Application</td>
+            <td>Android Application</td>
+        </tr>
+    </table>
+    <br><br>
+
+
+
+    <!-- Task 6 form  -->
+
+    <form >
+        <fieldset>
+            <legend>Online Registration Form</legend>
+        <label for="name">Name:</label>
+
+        <input type="text"  id="name">
+        <br> <br>
+        <label for="email">email:</label>
+        <input type="text" id="email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password">
+        <br><br>
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="male"> 
+        <label for="male">Male</label>
+        
+        <input type="radio"  id="female" name="gender" value="female" >
+        <label for="female">Female</label>
+        <br><br>
+        <div for="checkbox">
+        Interests of foods:
+        <br>
+
+        <input type="checkbox"  id="pilau" name="food">
+        <label for="pilau">Pilau</label>
+
+        <input type="checkbox" name="food" id="birian">
+        <label for="birian">Birian</label>
+      
+        <input type="checkbox" name="food" id="Rice">
+        <label for="Rice">Rice with Bean</label>
+       
+        <input type="checkbox" name="food" id="Chicken">
+        <label for="Chicken">Chicken</label>
+     
+    </div>
+
+        <br><br>
+        <label>Country name:</label>
+        <select id="country">Country
+<option value="China">China</option>
+<option value="Tanzania">Tanzania</option>
+<option value="Europe">Turkey</option>
+<option value="Germany">German</option>
+
+
+        </select>
+        <br><br>
+        <input type="button" value="submit">
+
+    </fieldset>
+    </form>
 
 </body>
 
